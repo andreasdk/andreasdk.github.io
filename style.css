@@ -52,16 +52,6 @@ body {
   flex-direction: column;
 }
 
-@media only screen and (min-width: 56.25em) {
-  .circle__container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
-}
-
 .circle {
   border: 5px solid #000000;
   background-color: #000000;
@@ -89,4 +79,20 @@ body {
 
 .circle__link:hover {
   color: #000000;
+}
+
+@media only screen and (min-width: 56.25em) {
+  .circle__container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #header__homepage {
+    font-size: 6.2rem;
+  }
+  .header {
+    margin-bottom: 25rem;
+  }
 }
