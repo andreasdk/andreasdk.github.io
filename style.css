@@ -29,19 +29,37 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 1.7;
+  margin: 3rem 2rem;
 }
 
 .header {
-  margin-bottom: 15rem;
+  display: flex;
+  align-items: center;
+  justify-items: flex-end;
+}
+
+.header__container {
+  height: 9rem;
+  display: flex;
+  flex-direction: row;
 }
 
 #header__homepage {
   font-size: 3.6rem;
   font-weight: 300;
   line-height: normal;
-  top: 1.4rem;
-  left: 1rem;
-  position: absolute;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  font-size: 3.2rem;
+}
+
+.navbar li a {
+  color: #000000;
 }
 
 .circle__container {
@@ -80,6 +98,19 @@ body {
 .circle__link:hover {
   color: #000000;
 }
+.about__header p {
+  font-size: 3.2rem;
+}
+
+.about__resume__list li {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.about__resume__list a {
+  color: #000000;
+  text-decoration: none;
+}
 
 @media only screen and (min-width: 56.25em) {
   .circle__container {
@@ -88,11 +119,31 @@ body {
     align-content: center;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 10rem;
+  }
+  .circle {
+    width: 25rem;
+    height: 25rem;
   }
   #header__homepage {
     font-size: 6.2rem;
+    width: 50%;
   }
   .header {
-    margin-bottom: 25rem;
+    margin-bottom: 16rem;
+  }
+  .about__resume {
+    display: flex;
+    flex-direction: row;
+  }
+  .about__resume__list {
+    width: 100%;
+  }
+  .about__resume__list p {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  .about__resume__list li {
+    font-size: 2.8rem;
   }
 }
