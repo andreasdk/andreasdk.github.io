@@ -9,6 +9,10 @@ html {
   overflow-x: hidden;
 }
 
+:root {
+  --body-margin: 3rem 2rem;
+}
+
 @media only screen and (max-width: 75em) {
   html {
     font-size: 56.25%;
@@ -29,23 +33,22 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 1.7;
-  margin: 3rem 2rem;
 }
 
 .header {
   display: flex;
   align-items: center;
-  justify-items: flex-end;
+  margin-bottom: 2rem;
 }
 
 .header__container {
-  height: 9rem;
   display: flex;
   flex-direction: row;
+  margin: var(--body-margin);
 }
 
 #header__homepage {
-  font-size: 3.6rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: normal;
 }
@@ -90,7 +93,7 @@ body {
   height: 100%;
   text-align: center;
   color: #ffffff;
-  font-size: 3.2rem;
+  font-size: 4.5rem;
   text-decoration: none;
   line-height: normal;
 }
@@ -98,18 +101,45 @@ body {
 .circle__link:hover {
   color: #000000;
 }
+
 .about__header p {
-  font-size: 3.2rem;
+  font-size: 2.25rem;
+}
+
+.about__resume__list p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about__resume__list ul {
+  margin-bottom: 1.5rem;
 }
 
 .about__resume__list li {
   list-style: none;
-  font-size: 1.8rem;
+  font-size: 2.25rem;
 }
 
 .about__resume__list a {
   color: #000000;
   text-decoration: none;
+}
+
+.image__container__hero {
+  background-color: #1b80bf;
+  height: 27rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image__container__hero img {
+  padding: 1rem;
+}
+
+#hero_desktop {
+  display: none;
 }
 
 @media only screen and (min-width: 56.25em) {
@@ -130,7 +160,10 @@ body {
     width: 50%;
   }
   .header {
-    margin-bottom: 16rem;
+    margin-bottom: 10rem;
+  }
+  .about__header p {
+    font-size: 3.2rem;
   }
   .about__resume {
     display: flex;
@@ -141,9 +174,20 @@ body {
   }
   .about__resume__list p {
     font-size: 2.8rem;
-    font-weight: bold;
   }
   .about__resume__list li {
     font-size: 2.8rem;
+  }
+  .image__container__hero {
+    height: 47.5rem;
+  }
+  #hero_mobile {
+    display: none;
+  }
+  .hero_desktop_container {
+    padding-top: 0.25rem;
+  }
+  #hero_desktop {
+    display: block;
   }
 }
