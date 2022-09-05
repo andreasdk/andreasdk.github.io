@@ -49,7 +49,7 @@ body {
 
 #header__homepage {
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: bold;
   line-height: normal;
 }
 
@@ -140,6 +140,30 @@ body {
 
 #hero_desktop {
   display: none;
+}
+
+.section__description {
+  margin: var(--body-margin);
+}
+
+.section__description__header p {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.section__description__text {
+  margin-top: 2rem;
+}
+
+.section__description__text p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.section__description__subheader {
+  margin-top: 2.5rem;
 }
 
 @media only screen and (min-width: 56.25em) {
