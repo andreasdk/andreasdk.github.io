@@ -166,6 +166,26 @@ body {
   margin-top: 2.5rem;
 }
 
+.section__image__header p {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin: var(--body-margin);
+}
+
+.section_desktop {
+  display: none;
+}
+
+.section_mobile {
+  display: block;
+}
+
+.image__container__mobile {
+  background-color: #1b80bf;
+}
+
 @media only screen and (min-width: 56.25em) {
   .circle__container {
     display: flex;
@@ -212,6 +232,36 @@ body {
     padding-top: 0.25rem;
   }
   #hero_desktop {
+    display: block;
+  }
+  .section__description {
+    margin-top: 25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    line-height: normal;
+  }
+  .section__description__header {
+    width: 35%;
+  }
+  .section__description__text {
+    width: 100%;
+    margin: 0;
+  }
+  .section__description__text p {
+    font-size: 2.8rem;
+    margin-top: 0;
+  }
+  .section__description__text p:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+  .section__image {
+    margin: var(--body-margin);
+  }
+  .section_mobile {
+    display: none;
+  }
+  .section_desktop {
     display: block;
   }
 }
