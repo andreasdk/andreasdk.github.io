@@ -10,7 +10,8 @@ html {
 }
 
 :root {
-  --body-margin: 3rem 2rem;
+  --body-margin--dk: 3rem 2rem;
+  --body-margin--mb: 2rem 1.5rem;
 }
 
 @media only screen and (max-width: 75em) {
@@ -44,7 +45,7 @@ body {
 .header__container {
   display: flex;
   flex-direction: row;
-  margin: var(--body-margin);
+  margin: var(--body-margin--mb);
 }
 
 #header__homepage {
@@ -142,8 +143,20 @@ body {
   display: none;
 }
 
+#hero_desktop2 {
+  display: none;
+}
+
+.image__container__hero__green {
+  background-color: #62982c;
+  height: 27rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .section__description {
-  margin: var(--body-margin);
+  margin: var(--body-margin--mb);
 }
 
 .section__description__header p {
@@ -171,7 +184,13 @@ body {
   flex-direction: column;
   font-size: 2.25rem;
   font-weight: bold;
-  margin: var(--body-margin);
+}
+
+.section__theme p {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  font-weight: bold;
 }
 
 .section_desktop {
@@ -180,10 +199,35 @@ body {
 
 .section_mobile {
   display: block;
+  width: 100%;
 }
 
-.image__container__mobile {
+#image__container__mobile__opale {
   background-color: #1b80bf;
+  width: 100%;
+  padding: 2rem;
+}
+
+.section__theme {
+  margin: var(--body-margin--mb);
+}
+
+.block4 {
+  margin-bottom: 2.5rem;
+}
+
+.block5,
+.block6 {
+  background-color: #1b80bf;
+}
+
+.block6,
+.block11 {
+  padding: 2rem;
+}
+
+.block11 {
+  background-color: #62982c;
 }
 
 @media only screen and (min-width: 56.25em) {
@@ -198,6 +242,9 @@ body {
   .circle {
     width: 25rem;
     height: 25rem;
+  }
+  .header__container {
+    margin: var(--body-margin--dk);
   }
   #header__homepage {
     font-size: 6.2rem;
@@ -222,16 +269,23 @@ body {
   .about__resume__list li {
     font-size: 2.8rem;
   }
-  .image__container__hero {
+  .image__container__hero,
+  .image__container__hero__green {
     height: 47.5rem;
   }
   #hero_mobile {
+    display: none;
+  }
+  #hero_mobile2 {
     display: none;
   }
   .hero_desktop_container {
     padding-top: 0.25rem;
   }
   #hero_desktop {
+    display: block;
+  }
+  #hero_desktop2 {
     display: block;
   }
   .section__description {
@@ -256,12 +310,54 @@ body {
     margin-bottom: 2rem;
   }
   .section__image {
-    margin: var(--body-margin);
+    margin: var(--body-margin--dk);
   }
-  .section_mobile {
+  .image__container__desktop {
+    width: 100%;
+  }
+  .section_mobile,
+  .image__container__mobile {
     display: none;
   }
   .section_desktop {
     display: block;
+    width: 100%;
+  }
+  .section__theme {
+    display: flex;
+    margin: var(--body-margin--dk);
+  }
+  .block1,
+  .block2,
+  .block3 {
+    margin: 0.75rem;
+  }
+  .block4,
+  .block5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block4 {
+    margin-bottom: 0;
+  }
+
+  .block7,
+  .block8 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .block7 img,
+  .block8 img {
+    width: 100%;
+  }
+
+  .block9,
+  .block10 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
   }
 }
