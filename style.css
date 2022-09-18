@@ -377,7 +377,7 @@ body {
     height: 60rem;
   }
   .image__container__hero__orange {
-    height: 50rem;
+    height: 62rem;
     margin-bottom: 8rem;
   }
   .image__container__hero__purple {
@@ -499,5 +499,8 @@ body {
 @media only screen and (min-width: 75em) {
   .section__description {
     margin-top: 35rem;
+  }
+  .section__allo {
+    margin-top: 30rem;
   }
 }
