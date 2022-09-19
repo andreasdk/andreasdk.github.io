@@ -634,6 +634,10 @@ body {
     width: 100%;
   }
 
+  .block20 {
+    height: 80.75rem;
+  }
+
   .block9,
   .block10 {
     display: flex;
