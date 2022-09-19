@@ -11,6 +11,9 @@
 
 html {
   font-size: 62.5%;
+}
+
+.body__container {
   overflow-x: hidden;
 }
 
@@ -143,6 +146,13 @@ body {
 
 .image__container__hero img {
   padding: 1rem;
+}
+
+#hero_mobile {
+  max-width: 100%;
+}
+#hero_mobile2 {
+  max-width: 100%;
 }
 
 #hero_desktop {
@@ -284,6 +294,10 @@ body {
   background-color: #62982c;
 }
 
+.image__block__padding {
+  padding: 1rem;
+}
+
 .section__theme {
   margin: var(--body-margin--mb);
   margin-bottom: 5rem;
@@ -384,7 +398,7 @@ body {
 }
 
 .section__description__margin__small {
-  margin-top: 3rem;
+  margin: var(--body-margin--mb);
 }
 
 @media only screen and (min-width: 56.25em) {
@@ -469,6 +483,9 @@ body {
   }
   #hero_desktop {
     display: block;
+    max-width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
   #hero_desktop2 {
     display: block;
@@ -578,6 +595,10 @@ body {
   .footer {
     margin: var(--body-margin--dk);
   }
+}
+
+.padding-small {
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 75em) {
