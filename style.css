@@ -70,7 +70,9 @@ body {
 .navbar li a {
   color: #000000;
 }
-
+.section__description__header2 {
+  margin-top: 2.5rem;
+}
 .circle__container {
   display: flex;
   justify-content: center;
@@ -196,7 +198,7 @@ body {
 }
 .image__container__hero__baby-blue {
   background-color: rgb(123, 195, 248);
-  height: 160rem;
+  height: 100rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -222,6 +224,9 @@ body {
 .image__container__meeting {
   background-color: #ed5e2a;
   height: 200rem;
+}
+.margin-md-mb {
+  margin-top: 5rem;
 }
 
 .section__description {
@@ -348,11 +353,18 @@ body {
 .block23 {
   background-color: rgb(3, 169, 245);
   width: 100%;
+  padding: 1rem;
 }
 
 .block24 {
   background-color: rgb(205, 220, 57);
   width: 100%;
+}
+
+.block25 {
+  background-color: rgb(3, 169, 245);
+  width: 100%;
+  padding: 1rem;
 }
 
 .block11 {
@@ -431,6 +443,13 @@ body {
 
 .section__description__margin__small {
   margin: var(--body-margin--mb);
+}
+.section__description__headerv2 {
+  width: 100%;
+}
+
+.section__description__headerv3 {
+  width: 75%;
 }
 
 .padding-small {
@@ -546,6 +565,9 @@ body {
   .section__description__header {
     width: 35%;
   }
+  .section__description__headerv2 {
+    width: 35%;
+  }
   .section__description__header p {
     font-size: 3.25rem;
   }
@@ -567,6 +589,7 @@ body {
   .section__allo {
     margin-top: 15rem;
   }
+
   .section__image {
     margin: var(--body-margin--dk);
   }
@@ -637,6 +660,30 @@ body {
     justify-content: center;
     align-items: flex-start;
   }
+  .section__description__row {
+    display: flex;
+    flex-direction: row;
+  }
+  .description__row__container {
+    width: 50%;
+  }
+  .description__row__container .section__description__header {
+    width: 100%;
+  }
+  .section__theme__img2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+  .section__description__header2 {
+    margin-top: 0;
+  }
+  .block25 {
+    padding: 0;
+  }
+  .margin-md-mb {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width: 75em) {
@@ -650,5 +697,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .section__theme__img2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
   }
 }
