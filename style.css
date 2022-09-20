@@ -243,6 +243,14 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.image__container__books {
+  background-color: #03f5ab;
+  height: 46.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .yellow_image_text_block {
   background-color: #fdcf00 !important;
 }
@@ -254,6 +262,10 @@ body {
 }
 .blue_image_text_block2 {
   background-color: #1b77b6 !important;
+}
+.aqua_image_text_block {
+  background-color: #03f5ab !important;
+  padding: 1rem !important;
 }
 .image__container__meeting {
   background-color: #ed5e2a;
@@ -815,6 +827,15 @@ body {
     align-items: flex-start;
     padding: 0;
   }
+  .image__container__books {
+    background-color: #03f5ab;
+    height: 57rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3rem;
+  }
 }
 
 @media only screen and (min-width: 75em) {
@@ -839,5 +860,8 @@ body {
   }
   .section__description2 {
     margin-top: 5rem;
+  }
+  .aqua_image_text_block {
+    padding: 2rem !important;
   }
 }
