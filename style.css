@@ -49,12 +49,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin: var(--body-margin--mb);
   width: 100%;
 }
 
 #header__homepage {
-  font-size: 4.2rem;
+  font-size: 4rem;
   font-weight: bold;
   line-height: normal;
 }
@@ -64,7 +65,7 @@ body {
 }
 
 .navbar li {
-  font-size: 3.6rem;
+  font-size: 3rem;
 }
 
 .navbar li a {
@@ -221,6 +222,17 @@ body {
   align-items: center;
 }
 
+.image__container__illustrations {
+  background-color: rgb(155, 204, 151);
+  height: 17rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .image__container__meeting {
   background-color: #ed5e2a;
   height: 200rem;
@@ -277,6 +289,7 @@ body {
 .theme__image__container__mobile {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .section_desktop {
@@ -299,7 +312,10 @@ body {
   width: 100%;
   padding: 2rem;
 }
-
+#image__container__mobile__cine {
+  width: 100%;
+  padding: 1rem;
+}
 #image__container__mobile__xp {
   background-color: #62982c;
   width: 100%;
@@ -355,6 +371,14 @@ body {
   width: 100%;
   padding: 1rem;
 }
+.image__container__divas {
+  background-color: rgb(62, 88, 195);
+  height: 90rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .block24 {
   background-color: rgb(205, 220, 57);
@@ -363,6 +387,18 @@ body {
 
 .block25 {
   background-color: rgb(3, 169, 245);
+  width: 100%;
+  padding: 1rem;
+}
+
+.block26 {
+  background-color: rgb(151, 163, 204);
+  width: 100%;
+  padding: 1rem;
+}
+
+.block27 {
+  background-color: rgb(151, 204, 198);
   width: 100%;
   padding: 1rem;
 }
@@ -412,6 +448,10 @@ body {
   background-color: rgb(27, 128, 191);
   width: 100%;
 }
+.block24 {
+  background-color: rgb(204, 180, 151);
+  width: 100%;
+}
 .section__theme__green {
   margin-bottom: 5rem;
 }
@@ -455,6 +495,9 @@ body {
 .padding-small {
   padding: 1rem;
 }
+.cinegraphist {
+  background-color: rgb(112, 83, 163);
+}
 
 @media only screen and (min-width: 56.25em) {
   .circle__container {
@@ -478,6 +521,9 @@ body {
   }
   .header {
     margin-bottom: 10rem;
+  }
+  .navbar li {
+    font-size: 3.6rem;
   }
   .section__image__header p {
     margin: 0;
@@ -544,6 +590,7 @@ body {
   }
   #hero_desktop2 {
     display: block;
+    max-width: 100%;
   }
   .section__description {
     margin: 0;
@@ -588,6 +635,12 @@ body {
   }
   .section__allo {
     margin-top: 15rem;
+  }
+  .image__container__divas {
+    height: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .section__image {
@@ -688,6 +741,24 @@ body {
   .margin-md-mb {
     margin-top: 0;
   }
+  .block26,
+  .block27 {
+    padding: 3rem;
+  }
+
+  .image__container__illustrations {
+    background-color: rgb(155, 204, 151);
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .section__description__meeting {
+    margin-top: 35rem !important;
+  }
 }
 
 @media only screen and (min-width: 75em) {
@@ -696,6 +767,9 @@ body {
   }
   .section__allo {
     margin-top: 30rem;
+  }
+  .section__description__meeting {
+    margin-top: 20rem !important;
   }
   .section__theme__img {
     display: flex;
