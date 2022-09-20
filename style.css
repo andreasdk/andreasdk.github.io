@@ -232,11 +232,28 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.image__container__magazines {
+  background-color: #bbb662;
+  height: 90rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .yellow_image_text_block {
   background-color: #fdcf00 !important;
 }
+.red_image_text_block {
+  background-color: #f5362f !important;
+}
 .blue_image_text_block {
   background-color: #378ed1 !important;
+}
+.blue_image_text_block2 {
+  background-color: #1b77b6 !important;
 }
 .image__container__meeting {
   background-color: #ed5e2a;
@@ -414,6 +431,12 @@ body {
 
 .block27 {
   background-color: rgb(151, 204, 198);
+  width: 100%;
+  padding: 1rem;
+}
+
+.block28 {
+  background-color: #03a9f5;
   width: 100%;
   padding: 1rem;
 }
@@ -782,6 +805,15 @@ body {
   }
   .section__description__meeting {
     margin-top: 35rem !important;
+  }
+  .image__container__magazines {
+    background-color: #bbb662;
+    height: 55rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
   }
 }
 
