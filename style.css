@@ -508,7 +508,7 @@ body {
   width: 100%;
 }
 .block24 {
-  background-color: #CDDC39;
+  background-color: #cddc39;
   width: 100%;
 }
 .section__theme__green {
@@ -529,15 +529,16 @@ body {
 }
 
 .footer__navbar button {
-  background-color: Transparent;
+  background-color: transparent;
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
   overflow: hidden;
   outline: none;
   color: #000000;
-  font-size: 3rem;
+  font-size: 3.6rem;
   text-decoration: underline;
+  font-family: "Times New Roman";
 }
 
 .section__description__margin__small {
@@ -854,6 +855,7 @@ body {
     align-items: center;
     margin: var(--body-margin--dk);
     width: 100%;
+  }
 }
 
 @media only screen and (min-width: 75em) {
