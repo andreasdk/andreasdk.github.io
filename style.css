@@ -563,7 +563,12 @@ body {
 .cinegraphist {
   background-color: rgb(112, 83, 163);
 }
-
+.mb-md {
+  margin-bottom: 3rem !important;
+}
+.full-width-image {
+  width: 100%;
+}
 @media only screen and (min-width: 56.25em) {
   .circle__container {
     display: flex;
@@ -741,7 +746,7 @@ body {
     /* display: flex;
     justify-content: space-between;
     margin: var(--body-margin--dk); */
-    margin-bottom: 8rem;
+    margin-bottom: 5rem !important;
   }
 
   .image__block {
@@ -749,13 +754,6 @@ body {
     margin-bottom: 8rem;
   }
 
-  .block4,
-  .block5 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .block4 {
     margin-bottom: 0;
   }
@@ -769,12 +767,12 @@ body {
     height: 80.75rem;
   }
 
-  .block9,
+  /* .block9,
   .block10 {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-  }
+  } */
 
   .section__theme__green__image {
     display: flex;
@@ -817,7 +815,7 @@ body {
     padding: 0;
   }
   .margin-md-mb {
-    margin-top: 0;
+    margin-bottom: 0;
   }
   .block26,
   .block27 {
