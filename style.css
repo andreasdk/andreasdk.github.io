@@ -237,7 +237,7 @@ body {
 
 .image__container__hero__web {
   background-color: rgb(55, 50, 183);
-  height: 80rem;
+  height: 90rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -257,7 +257,7 @@ body {
 
 .image__container__magazines {
   background-color: #bbb662;
-  height: 90rem;
+  height: 100rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -267,7 +267,7 @@ body {
 }
 .image__container__books {
   background-color: #03f5ab;
-  height: 50rem;
+  height: 60rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -444,7 +444,7 @@ body {
 }
 .image__container__news {
   background-color: rgb(3, 169, 245);
-  height: 45rem;
+  height: 55rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -596,6 +596,10 @@ body {
   .full-width-image {
     width: 100%;
   }
+  .header__container__index {
+    margin: var(--body-margin--dk);
+  }
+
   .circle__container {
     display: flex;
     justify-content: center;
@@ -619,6 +623,7 @@ body {
   #header__homepage {
     font-size: 6.2rem;
     width: 50%;
+    margin-bottom: -1.5rem;
   }
 
   .navbar li {
@@ -659,14 +664,14 @@ body {
     height: 58rem;
   }
   .image__container__hero__orange {
-    height: 62rem;
+    height: 50rem;
     margin-bottom: 8rem;
   }
   .image__container__hero__purple {
     height: 47rem;
   }
   .image__container__hero__prints {
-    height: 70rem;
+    height: 60rem;
   }
   #hero_mobile {
     display: none;
@@ -681,9 +686,7 @@ body {
     padding-right: 10rem;
     padding-left: 10rem;
   }
-  .hero_desktop_container {
-    padding-top: 0.25rem;
-  }
+
   .no-pt {
     padding-top: 0;
   }
@@ -829,10 +832,10 @@ body {
     margin: var(--body-margin--dk);
   }
   .image__container__hero__web {
-    height: 60rem;
+    height: 80rem;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
   .section__description__row {
     display: flex;
@@ -878,7 +881,7 @@ body {
   }
   .image__container__magazines {
     background-color: #bbb662;
-    height: 80rem;
+    height: 75rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -939,12 +942,15 @@ body {
     margin-top: 5rem;
   }
   .image__container__hero__prints {
-    height: 80rem;
+    height: 65rem;
   }
   .image__container__divas {
     height: 90rem;
   }
   .section__description__margin__small {
     margin-top: 10rem;
+  }
+  .image__container__books {
+    height: 80rem;
   }
 }
