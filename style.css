@@ -759,7 +759,7 @@ body {
     margin-top: 15rem;
   }
   .image__container__divas {
-    height: 65rem;
+    height: 66rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -915,8 +915,12 @@ body {
 
 @media only screen and (min-width: 75em) {
   .section__description {
+    margin-top: 35rem;
+  }
+  .section__description__illustrations {
     margin-top: 30rem;
   }
+
   #section__description__prints {
     margin-top: 10rem;
   }
