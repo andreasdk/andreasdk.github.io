@@ -126,6 +126,7 @@ body {
 
 .about__header p {
   font-size: 2.25rem;
+  margin-bottom: 2rem;
 }
 
 .about__resume__list p {
@@ -623,7 +624,7 @@ body {
   #header__homepage {
     font-size: 6.2rem;
     width: 50%;
-    margin-bottom: -1.5rem;
+    margin-bottom: -3rem;
   }
 
   .navbar li {
