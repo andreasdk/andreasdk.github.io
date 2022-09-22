@@ -17,14 +17,14 @@ html {
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-@media only screen and (min-width: 56.25em) {
+@media only screen and (max-width: 56.25em) {
   html {
     font-size: 50%;
+  }
+}
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
   }
 }
 @media only screen and (min-width: 112.5em) {
@@ -419,6 +419,11 @@ body {
   width: 100%;
 }
 
+.block12 {
+  background-color: #62982c;
+  width: 100%;
+}
+
 .block22 {
   padding: 0;
   width: 100%;
@@ -431,7 +436,7 @@ body {
 }
 .image__container__divas {
   background-color: rgb(62, 88, 195);
-  height: 90rem;
+  height: 100rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -439,7 +444,7 @@ body {
 }
 .image__container__news {
   background-color: rgb(3, 169, 245);
-  height: 42rem;
+  height: 45rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -527,9 +532,14 @@ body {
   width: 100%;
 }
 
-/* #section__description__prints {
+.block30 {
+  background-color: #ccb497;
+  width: 100%;
+}
+
+#section__description__prints {
   margin-top: 0;
-} */
+}
 .section__theme__green {
   margin-bottom: 5rem;
 }
@@ -610,9 +620,7 @@ body {
     font-size: 6.2rem;
     width: 50%;
   }
-  .header {
-    margin-bottom: 10rem;
-  }
+
   .navbar li {
     font-size: 3.6rem;
   }
@@ -760,18 +768,15 @@ body {
   }
   .image__container__divas {
     height: 66rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
   }
 
   .image__container__news {
     background-color: rgb(3, 169, 245);
-    height: 56rem;
+    height: 70rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .section__image {
@@ -809,17 +814,6 @@ body {
   .block8 img {
     width: 100%;
   }
-
-  .block20 {
-    height: 80.75rem;
-  }
-
-  /* .block9,
-  .block10 {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  } */
 
   .section__theme__green__image {
     display: flex;
@@ -871,11 +865,11 @@ body {
 
   .image__container__illustrations {
     background-color: rgb(155, 204, 151);
-    height: 50rem;
+    height: 70rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -884,20 +878,20 @@ body {
   }
   .image__container__magazines {
     background-color: #bbb662;
-    height: 55rem;
+    height: 80rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 0;
   }
   .image__container__books {
     background-color: #03f5ab;
-    height: 57rem;
+    height: 70rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 3rem;
   }
   .aqua_image_text_block {
@@ -915,18 +909,18 @@ body {
 
 @media only screen and (min-width: 75em) {
   .section__description {
-    margin-top: 35rem;
+    margin-top: 16rem;
   }
-  .section__description__illustrations {
-    margin-top: 30rem;
+  .section__description__mt {
+    margin-top: 25rem;
   }
 
   #section__description__prints {
-    margin-top: 10rem;
+    margin-top: 5.5rem;
   }
-  .section__allo {
+  /* .section__allo {
     margin-top: 30rem;
-  }
+  } */
   .section__description__meeting {
     margin-top: 20rem !important;
   }
@@ -946,5 +940,11 @@ body {
   }
   .image__container__hero__prints {
     height: 80rem;
+  }
+  .image__container__divas {
+    height: 90rem;
+  }
+  .section__description__margin__small {
+    margin-top: 10rem;
   }
 }
