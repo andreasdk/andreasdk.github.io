@@ -538,6 +538,11 @@ body {
   width: 100%;
 }
 
+.block35 {
+  background-color: #ffa0c0;
+  width: 100%;
+}
+
 #section__description__prints {
   margin-top: 0;
 }
@@ -599,6 +604,10 @@ body {
   }
   .header__container__index {
     margin: var(--body-margin--dk);
+  }
+
+  .block35 {
+    padding: 0;
   }
 
   .circle__container {
